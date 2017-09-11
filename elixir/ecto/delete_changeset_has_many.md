@@ -27,7 +27,7 @@ end
   def delete_changeset(struct, params \\ %{}) do
     struct
     |> cast(params, [...fields...])
-    |> cast_assoc(:record_category)
+    |> cast_assoc(:records)
     |> no_assoc_constraint(:records)
   end
 ```
