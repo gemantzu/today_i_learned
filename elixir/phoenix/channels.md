@@ -54,6 +54,7 @@ messageInput.on('keypress', event => {
 channel.on('message:new', payload => {
   // do stuff on html
 })
+```
 
 ### Catch message on the room_channel (`lib/app_web/channels/room_channel.ex`)
 
